@@ -1,0 +1,15 @@
+const nombre = prompt("ingresa tu nombre: ");
+var cantidadMaterias = parseInt(prompt("Ingresa la cantidad de materias que estudias:"));
+//let  numero = parseInt(prompt("ingresa tu calificacion de español: "));
+for (var i = 1; i <= cantidadMaterias; i++) {
+var calificacion = parseFloat(prompt("Ingresa la calificación de la materia " + i + ":"));
+if(calificacion >11||calificacion<0){
+}
+else{ 
+console.log("no es valida esta calificasion "  )
+}
+  suma = calificacion + calificacion;
+var promedio = calificacion   / cantidadMaterias;
+
+}
+console.log(" hola " + nombre +" tu calificacion final es: " + promedio );
